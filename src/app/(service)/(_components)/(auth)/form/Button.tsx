@@ -2,7 +2,7 @@ interface FormBtnProps {
   loading: boolean;
   text: string;
 }
-export default function FormBtn({ loading, text }: FormBtnProps) {
+export default function Button({ loading, text }: FormBtnProps) {
   return (
     <button
       disabled={loading}
